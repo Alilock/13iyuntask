@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: fit-content;
+}
+
+.container {
+    width: 600px;
+    /* background-color: red; */
+    padding: 10px 45px;
+    margin: 0 auto;
+}
+
+.container .head h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.job {
+    font-weight: 300;
+}
+
+.container .head h4 {
+    font-size: larger;
+
+}
+
+.container .section {
+    display: flex;
+}
+
+.container .main {
+
+
+    margin-top: 50px;
+
+    border-left: 1px dashed gray;
+    padding-left: 5px;
+    width: 280px;
+
+}
+
+.main2 {
+    margin-top: 50px;
+
+    border-left: 1px dashed gray;
+    padding-left: 5px;
+    width: 260px;
+
+
+}
+
+.main2 .desc {
+    margin-bottom: 30px;
+}
+
+.container .desc {
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.bluetitle {
+    color: rgb(87, 199, 199);
+    display: flex;
+}
+
+.bluetitle .blueetitle {
+    margin-left: 10px;
+}
+
+.boldtitle {
+    margin-top: 20px;
+}
+
+.projectname {
+    margin-top: 20px;
+}
+
+.img {
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
